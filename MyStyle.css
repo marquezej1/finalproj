@@ -1,0 +1,176 @@
+body {margin: 0;
+      background-color: #d3d4d9ff;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #252627ff;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #252627ff;}
+
+ul.topnav li a.active {background-color: #46237aff;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+.Top{
+        text-align: center;
+        font-family: Verdana;
+        font-style: bolder;
+        font-size: 2vw;
+}
+
+#title{
+        text-align: center;
+        font-family: "Playfair Display";
+        font-size: 3vw;
+        font-style: bolder;
+}
+
+
+span > p{
+        font-family: ;
+        text-align: left;
+        font-size: 2vw;
+    }
+    
+
+.Captions{
+    text-align:center;
+    font-family:Verdana;
+    font-style:italic;
+    font-size:1vw;
+}
+
+ul{
+ text-align: center;   
+ list-style: none;
+}
+
+#camera{
+        font-family: "Playfair Display", serif;
+        color: #e08e45ff;
+        font-weight: bold;        
+}
+
+form {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+}
+
+h1 {
+ text-align:center;   
+ color:  #4b88a2ff;
+}
+
+h4 {
+ text-align: center;
+ color: #bb0a21ff;
+ font-size: 1vw;
+}
+
+h3 {
+ text-align: center;
+ color: #bb0a21ff;
+ font-size: 1vw;
+}
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+#MessageContents {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-style: normal;   
+}
+
+.tablecenter {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "IBM Plex Sans" ;
+  color: #252627ff ;
+  border-color: #e08e45ff;
+  outline-color: #252627ff; 
+  
+}
+
+.responders{
+        height: 14vw;
+        width: 21vw;
+        border: 5vw;
+        border-color:#4b88a2ff;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
+        
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
